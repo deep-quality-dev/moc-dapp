@@ -50,15 +50,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"idx\",\"type\":\"uint256\"}],\"name\":\"getItem\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"idx\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/WORK/Blockchain/moc-dapp/contracts/MOC.sol\":\"MOC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/WORK/Blockchain/moc-dapp/contracts/MOC.sol\":{\"keccak256\":\"0x449349e2e142624cd7af9b50a39f8accf3f0fa3ef0a3d7b8085c67e3f2b1c974\",\"urls\":[\"bzz-raw://fa105aa0cd484b6d7dc8f4bceb042014cacfa5b19dde3b0cda6454e9341c4ac9\",\"dweb:/ipfs/QmXmTfLtJzfVx7wkibohnVAiC5CGNm1D92iygGRsmCswkJ\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060008090505b600381101561004057600080826003811061002e57fe5b01819055508080600101915050610017565b50610153806100506000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80630121b93f1461003b5780633129e7731461007d575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506100bf565b6040518082815260200191505060405180910390f35b6100a96004803603602081101561009357600080fd5b8101908080359060200190929190505050610107565b6040518082815260200191505060405180910390f35b60008082101580156100d15750600382105b156100fd57600082600381106100e357fe5b016000815480929190600101919050555060019050610102565b600090505b919050565b600080826003811061011557fe5b0154905091905056fea265627a7a72315820bda7bf500fd003bad75e74bb58070a24de5574e54b88d047de1cc04776686d5364736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80630121b93f1461003b5780633129e7731461007d575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506100bf565b6040518082815260200191505060405180910390f35b6100a96004803603602081101561009357600080fd5b8101908080359060200190929190505050610107565b6040518082815260200191505060405180910390f35b60008082101580156100d15750600382105b156100fd57600082600381106100e357fe5b016000815480929190600101919050555060019050610102565b600090505b919050565b600080826003811061011557fe5b0154905091905056fea265627a7a72315820bda7bf500fd003bad75e74bb58070a24de5574e54b88d047de1cc04776686d5364736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"idx\",\"type\":\"uint256\"}],\"name\":\"getItem\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"idx\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/R/WorkRU/2021_Blockchain/self-study-dapp/1-moc-dapp/moc-dapp/contracts/MOC.sol\":\"MOC\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/R/WorkRU/2021_Blockchain/self-study-dapp/1-moc-dapp/moc-dapp/contracts/MOC.sol\":{\"keccak256\":\"0x449349e2e142624cd7af9b50a39f8accf3f0fa3ef0a3d7b8085c67e3f2b1c974\",\"urls\":[\"bzz-raw://fa105aa0cd484b6d7dc8f4bceb042014cacfa5b19dde3b0cda6454e9341c4ac9\",\"dweb:/ipfs/QmXmTfLtJzfVx7wkibohnVAiC5CGNm1D92iygGRsmCswkJ\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060008090505b600381101561004057600080826003811061002e57fe5b01819055508080600101915050610017565b50610153806100506000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80630121b93f1461003b5780633129e7731461007d575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506100bf565b6040518082815260200191505060405180910390f35b6100a96004803603602081101561009357600080fd5b8101908080359060200190929190505050610107565b6040518082815260200191505060405180910390f35b60008082101580156100d15750600382105b156100fd57600082600381106100e357fe5b016000815480929190600101919050555060019050610102565b600090505b919050565b600080826003811061011557fe5b0154905091905056fea265627a7a72315820bcf7c190bae71db31e8fd10e56acc1e9a7348277c0c00cea9532b019954b60a764736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80630121b93f1461003b5780633129e7731461007d575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506100bf565b6040518082815260200191505060405180910390f35b6100a96004803603602081101561009357600080fd5b8101908080359060200190929190505050610107565b6040518082815260200191505060405180910390f35b60008082101580156100d15750600382105b156100fd57600082600381106100e357fe5b016000815480929190600101919050555060019050610102565b600090505b919050565b600080826003811061011557fe5b0154905091905056fea265627a7a72315820bcf7c190bae71db31e8fd10e56acc1e9a7348277c0c00cea9532b019954b60a764736f6c63430005100032",
   "sourceMap": "27:452:0:-;;;80:110;8:9:-1;5:2;;;30:1;27;20:12;5:2;80:110:0;117:9;129:1;117:13;;112:71;136:1;132;:5;112:71;;;170:1;159:5;165:1;159:8;;;;;;;;:12;;;;139:3;;;;;;;112:71;;;;27:452;;;;;;",
   "deployedSourceMap": "27:452:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:452:0;;;;;;;;;;;;;;;;;;;;;;;;301:175;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;301:175:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;198:95;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;198:95:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;301:175;343:7;374:1;367:3;:8;;:19;;;;;385:1;379:3;:7;367:19;363:87;;;403:5;409:3;403:10;;;;;;;;;:12;;;;;;;;;;;;;437:1;430:8;;;;363:87;467:1;460:8;;301:175;;;;:::o;198:95::-;248:7;275:5;281:3;275:10;;;;;;;;;268:17;;198:95;;;:::o",
   "source": "pragma solidity ^0.5.1;\r\n\r\ncontract MOC {\r\n    uint256[3] private items;\r\n\r\n    constructor() public {\r\n        for (uint256 i = 0; i < 3; i++) {\r\n            items[i] = 0;\r\n        }\r\n    }\r\n\r\n    function getItem(uint256 idx) public view returns(uint256) {\r\n        return items[idx];\r\n    }\r\n\r\n    function vote(uint256 idx) public returns(uint256) {\r\n        if (idx >= 0 && idx < 3) {\r\n            items[idx]++;\r\n            return 1;\r\n        }\r\n        return 0;\r\n    }\r\n}",
-  "sourcePath": "D:/WORK/Blockchain/moc-dapp/contracts/MOC.sol",
+  "sourcePath": "R:/WorkRU/2021_Blockchain/self-study-dapp/1-moc-dapp/moc-dapp/contracts/MOC.sol",
   "ast": {
-    "absolutePath": "/D/WORK/Blockchain/moc-dapp/contracts/MOC.sol",
+    "absolutePath": "/R/WorkRU/2021_Blockchain/self-study-dapp/1-moc-dapp/moc-dapp/contracts/MOC.sol",
     "exportedSymbols": {
       "MOC": [
         66
@@ -875,7 +875,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/D/WORK/Blockchain/moc-dapp/contracts/MOC.sol",
+      "absolutePath": "/R/WorkRU/2021_Blockchain/self-study-dapp/1-moc-dapp/moc-dapp/contracts/MOC.sol",
       "exportedSymbols": {
         "MOC": [
           66
@@ -1777,12 +1777,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xA846dF8c70917d9BffBeAc121125c1d18Bb72261",
-      "transactionHash": "0x1739f25599a5a2dbf952faf6997709d0ab8860f2a20388386886575e36e7ae7f"
+      "address": "0x80b96647dE2164d0b97DAB314Ba72D6C7Dad1E2A",
+      "transactionHash": "0x1978ff6426a4b6d9bb7c2322195d7060d121c55e6d97c41bb04c14f1d75ccaf8"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-01T15:06:39.032Z",
+  "updatedAt": "2021-06-29T10:03:05.542Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

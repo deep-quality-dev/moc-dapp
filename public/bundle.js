@@ -49,8 +49,8 @@ const contractABI = [
     }
   ];
 
-const contractAddress = '0xA846dF8c70917d9BffBeAc121125c1d18Bb72261';
-let web3 = new Web3('http://192.168.0.115:9545');
+const contractAddress = '0x80b96647dE2164d0b97DAB314Ba72D6C7Dad1E2A';
+let web3 = new Web3('http://192.168.0.125:9545');
 let moc = new web3.eth.Contract(contractABI, contractAddress);
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -74,7 +74,7 @@ const vote = (e) => {
   let index = e.id[4];
   console.log(index);
   moc.methods.vote(index).send({
-    from: '0x91303716d4306ea792b42bf0696422244c0a5428'
+    from: '0xd3f092e83cc9be6e82eba1021cf8eeeddf163ebf'
   }).then(result => {
     console.log(result);
     refresh();
